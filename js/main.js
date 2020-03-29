@@ -15,6 +15,8 @@ $(document).ready(function() {
 
     $('.nav-link').click(function(event) {
         $('.nav, .header-burger').removeClass('active');
+        $('body, html').removeClass('scroll-hidden');
+        
     });
 });
 
